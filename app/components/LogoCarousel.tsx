@@ -8,7 +8,7 @@ const logos = [
   "/logos/nodejs.png",
   "/logos/mysql.png",
   "/logos/tailwind.png",
-  "/logos/javascript.png",
+  "/logos/js.png",
   "/logos/html.png",
   "/logos/css3.png",
   "/logos/typescript.png",
