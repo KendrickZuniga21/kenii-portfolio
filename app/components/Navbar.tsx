@@ -91,7 +91,9 @@ export default function Navbar() {
           return (
             <button
               key={item.id}
-              ref={(el) => (navRefs.current[item.id] = el)}
+              ref={(el) => {
+                navRefs.current[item.id] = el;
+                }}
               onClick={() => {
                 setActive(item.id);
                 handleScroll(item.id);
