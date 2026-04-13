@@ -32,10 +32,10 @@ export default function CVModal({ open, onClose }: Props) {
         <motion.div
             initial={{ scale: 0.9, opacity: 0, y: 40 }}
             animate={{ scale: 1, opacity: 1, y: 0 }}
-            exit={{ scale: 0.9, opacity: 0, y: 30 }} // 👈 smooth exit
+            exit={{ scale: 0.9, opacity: 0, y: 30 }} 
             transition={{
                 duration: 0.3,
-                ease: [0.22, 1, 0.36, 1], // smooth easing
+                ease: [0.22, 1, 0.36, 1], 
             }}
             >
         <Box
@@ -63,7 +63,6 @@ export default function CVModal({ open, onClose }: Props) {
               </div>
             </div>
 
-            {/* PDF */}
             <iframe
               src="/Daryll_Kendrick_Zuniga_CV.pdf"
               className="w-full h-full rounded-lg"
