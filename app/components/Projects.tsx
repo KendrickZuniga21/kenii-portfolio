@@ -78,7 +78,7 @@ export default function ProjectsSection() {
             </Button>
             <Button
               size="small"
-              href="#"
+              href="https://github.com/KendrickZuniga21/kenii-portfolio"
               target="_blank"
               sx={{
                 color: "#ffffff",

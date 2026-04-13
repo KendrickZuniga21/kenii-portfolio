@@ -2,6 +2,7 @@ import HomeSection from "./components/HomeSection";
 import AboutSection from "./components/AboutSection";
 import ContactSection from "./components/Contact";
 import ProjectSection from "./components/Projects";
+import Footer from "./components/Footer";
 export default function Home() {
   return (
     <main className="scroll-smooth pt-20">
@@ -12,6 +13,7 @@ export default function Home() {
       <AboutSection />
       <ProjectSection />
       <ContactSection />
+      <Footer/>
     </main>
   );
 }
