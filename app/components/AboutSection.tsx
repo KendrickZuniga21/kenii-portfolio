@@ -62,7 +62,7 @@ export default function AboutSection() {
           </p>
 
           <InfoCard
-            title="Bachelor of Science in Comuper Engineering"
+            title="Bachelor of Science in Computer Engineering"
             subtitle="2015-2021"
             description="Pamantasan ng Lungsod ng Maynila"
             icon={<SchoolIcon />}
