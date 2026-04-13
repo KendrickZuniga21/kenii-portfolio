@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Daryll Kendrick Zuniga - Web Developer",
-  description: "Full Stack developer focused on building clean, responsive, and user-friendly web applications using React, Next.js, and Laravel.",
+  description: "Full Stack developer focused on building clean, responsive, and user-friendly web applications using React, Next.js, Node.js (Express) and Laravel.",
 };
 
 export default function RootLayout({
